@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Puppe-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Proyectos Unreal\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\PuppeEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.obj"
+"D:\Proyectos Unreal\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Puppe\Puppe.init.gen.cpp.obj"
+"D:\Proyectos Unreal\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Puppe\PuppeCharacter.gen.cpp.obj"
+"D:\Proyectos Unreal\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Puppe\PuppeGameMode.gen.cpp.obj"
+"D:\Proyectos Unreal\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Puppe\Puppe.cpp.obj"
+"D:\Proyectos Unreal\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Puppe\PuppeCharacter.cpp.obj"
+"D:\Proyectos Unreal\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Puppe\PuppeGameMode.cpp.obj"
+"D:\Proyectos Unreal\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Puppe\Default.rc2.res"
+/OUT:"D:\Proyectos Unreal\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Puppe\UnrealEditor-Puppe-Win64-DebugGame.lib"

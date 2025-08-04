@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\proyectos unreal\\puppe-proyect\\puppe\\intermediate\\build\\win64\\unrealeditor\\inc\\puppe\\uht\\puppe.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\proyectos unreal\\puppe-proyect\\puppe\\intermediate\\build\\win64\\x64\\puppeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\proyectos unreal\\puppe-proyect\\puppe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\puppe\\definitions.puppe.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

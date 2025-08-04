@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\proyectos unreal\\puppe-proyect\\puppe\\intermediate\\build\\win64\\unrealeditor\\inc\\puppe\\uht\\puppegamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\proyectos unreal\\puppe-proyect\\puppe\\intermediate\\build\\win64\\x64\\puppeeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\proyectos unreal\\puppe-proyect\\puppe\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\puppe\\definitions.puppe.h",
+            "d:\\proyectos unreal\\puppe-proyect\\puppe\\source\\puppe\\puppegamemode.h",
+            "d:\\epic juegos\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\epic juegos\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\epic juegos\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\epic juegos\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\proyectos unreal\\puppe-proyect\\puppe\\intermediate\\build\\win64\\unrealeditor\\inc\\puppe\\uht\\puppegamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

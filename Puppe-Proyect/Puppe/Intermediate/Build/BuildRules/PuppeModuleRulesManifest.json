@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Proyectos Unreal\\Puppe-Proyect\\Puppe\\Source\\Puppe\\Puppe.Build.cs",
+		"D:\\Proyectos Unreal\\Puppe-Proyect\\Puppe\\Source\\Puppe.Target.cs",
+		"D:\\Proyectos Unreal\\Puppe-Proyect\\Puppe\\Source\\PuppeEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}
