@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Puppe",
+			"Path": "..\\Source\\Puppe.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PuppeEditor",
+			"Path": "..\\Source\\PuppeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

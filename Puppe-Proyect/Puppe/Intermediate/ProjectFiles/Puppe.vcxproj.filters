@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Puppe.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Puppe.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PuppeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Puppe">
+      <UniqueIdentifier>{5FDAC29F-990E-346D-8AD4-41E5BB1F486F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Puppe\Beam.cpp">
+      <Filter>Source\Puppe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Puppe\Beam.h">
+      <Filter>Source\Puppe</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Puppe\Ladder.cpp">
+      <Filter>Source\Puppe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Puppe\Ladder.h">
+      <Filter>Source\Puppe</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Puppe\Puppe.Build.cs">
+      <Filter>Source\Puppe</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Puppe\Puppe.cpp">
+      <Filter>Source\Puppe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Puppe\Puppe.h">
+      <Filter>Source\Puppe</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Puppe\PuppeCharacter.cpp">
+      <Filter>Source\Puppe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Puppe\PuppeCharacter.h">
+      <Filter>Source\Puppe</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Puppe\PuppeGameMode.cpp">
+      <Filter>Source\Puppe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Puppe\PuppeGameMode.h">
+      <Filter>Source\Puppe</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Puppe\Rope.cpp">
+      <Filter>Source\Puppe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Puppe\Rope.h">
+      <Filter>Source\Puppe</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
