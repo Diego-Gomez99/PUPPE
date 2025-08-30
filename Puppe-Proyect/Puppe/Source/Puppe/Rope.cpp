@@ -17,24 +17,21 @@
 // Sets default values
 ARope::ARope()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	// Create Default Scene Root
-	DefaultSceneRoot = CreateDefaultSubobject<USceneComponent>(TEXT("DefaultSceneRoot"));
-	RootComponent = DefaultSceneRoot;
-	
-	BoxComp = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxComp"));
-	BoxComp->SetupAttachment(RootComponent);
 
 	RopeRoot = CreateDefaultSubobject<USceneComponent>(TEXT("RopeRoot"));
 	RootComponent = RopeRoot;
+	
+	BoxComp = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxComp"));
+	BoxComp->SetupAttachment(RopeRoot);
 	
 	RopeMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("RopeMesh"));
 	RopeMesh->SetupAttachment(RopeRoot);
 
 	AttachPoint = CreateDefaultSubobject<USceneComponent>(TEXT("AttachPoint"));
 	AttachPoint->SetupAttachment(RopeRoot);
-	
+	AttachPoint->SetRelativeLocation(FVector(0, 0, -RopeDistance));
 }
 
 // Called when the game starts or when spawned
@@ -48,14 +45,13 @@ void ARope::BeginPlay()
 	RopeMesh->SetSimulatePhysics(false);
 	
 	RopeMesh->SetCollisionResponseToChannel(ECC_Pawn, ECR_Overlap);
-	AttachPoint->SetRelativeLocation(FVector(0, 0, -RopeDistance));
 }
 
 // Called every frame
 void ARope::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	RopeSwing(DeltaTime);
+	//RopeSwing(DeltaTime);
 	RopeClimb();
 	DrawBonesLocations(true);
 }
@@ -68,28 +64,33 @@ void ARope::AttachActor()
 
 		PlayerCharacter->GetMesh()->SetSimulatePhysics(false);
 		
-		// Find the closest bone
-		FName ClosestBone = FindClosestBoneToPlayer(PlayerCharacter);
-
-		// Save the RopePivot
-		RopePivotLocation = RopeMesh->GetBoneLocation(ClosestBone);
-
-		// Get player location
-		FVector PlayerLocation = PlayerCharacter->GetActorLocation();
-
-		// Calculate the offset to allying the player to the rope.
-		FVector DeltaOffset = RopePivotLocation - PlayerLocation;
-		PlayerCharacter->SetActorLocation(DeltaOffset);
-
 		// Disable Player Movement
 		PlayerCharacter->GetCharacterMovement()->DisableMovement();
 
 		// To avoid collision issues while climbing deactivate the collisions
 		PlayerCharacter->GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 		
-		//PlayerCharacter->GetCharacterMovement()->GravityScale = 0.0f;
-		PlayerCharacter->AttachToComponent(AttachPoint, FAttachmentTransformRules::SnapToTargetNotIncludingScale);
+		// Find the closest bone
+		FName ClosestBone = FindClosestBoneToPlayer(PlayerCharacter);
+
 		
+		//PlayerCharacter->GetCharacterMovement()->GravityScale = 0.0f;
+		PlayerCharacter->AttachToComponent(RopeMesh, FAttachmentTransformRules::SnapToTargetNotIncludingScale, ClosestBone);
+
+		
+		// Correct Player Rotation
+		FRotator CorrectRotation = FRotator(0, RopeRoot->GetComponentRotation().Yaw, 0);
+		PlayerCharacter->SetActorRotation(CorrectRotation);
+		
+		// Save the RopePivot
+		RopePivotLocation = RopeMesh->GetBoneLocation(ClosestBone);
+		
+		FVector AttachLocation = RopePivotLocation;
+		
+		FVector HandOffeset = FVector(-40.0f, 0.0f, 0.0f);
+		AttachLocation += PlayerCharacter->GetActorRotation().RotateVector(HandOffeset);
+
+		PlayerCharacter->SetActorLocation(AttachLocation);
 		// Save Swing State
 		isSwinging = true;
 
@@ -172,19 +173,22 @@ void ARope::RopeSwing(float DeltaTime)
 
 	Currentangle = FMath::Clamp(Currentangle, -MaxSwingAngle, MaxSwingAngle);
 
-	float Radians = FMath::DegreesToRadians(Currentangle);
+	//float Radians = FMath::DegreesToRadians(Currentangle);
 
-	FVector NewOffset = FVector(
-		0,
-		FMath::Sin(Radians) * RopeDistance
-		,-FMath::Cos(Radians) * RopeDistance
-		);
+	// FVector NewOffset = FVector(
+	// 	0,
+	// 	FMath::Sin(Radians) * RopeDistance
+	// 	,-FMath::Cos(Radians) * RopeDistance
+	// 	);
 
-	FVector NewLocation = RopePivotLocation + NewOffset;
-	PlayerCharacter->SetActorLocation(NewLocation);
+	// FVector NewLocation = RopePivotLocation + NewOffset;
+	// PlayerCharacter->SetActorLocation(NewLocation);
+	//
+	// FRotator RopeVisualRotation = FRotator(0, 0, Currentangle);
+	// RopeRoot->SetRelativeRotation(RopeVisualRotation);
 
-	FRotator RopeVisualRotation = FRotator(0, 0, Currentangle);
-	RopeRoot->SetRelativeRotation(RopeVisualRotation);
+	FRotator SwingRotation = FRotator(0, 0, Currentangle);
+	RopeRoot->SetRelativeRotation(SwingRotation);
 }
 
 void ARope::RopeClimb()

@@ -130,11 +130,6 @@ struct Z_Construct_UClass_ARope_Statics
 		{ "IncludePath", "Rope.h" },
 		{ "ModuleRelativePath", "Rope.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultSceneRoot_MetaData[] = {
-		{ "Category", "Rope" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Rope.h" },
-	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BoxComp_MetaData[] = {
 		{ "Category", "Rope" },
 		{ "EditInline", "true" },
@@ -178,7 +173,6 @@ struct Z_Construct_UClass_ARope_Statics
 		{ "ModuleRelativePath", "Rope.h" },
 	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_DefaultSceneRoot;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_BoxComp;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_RopeMesh;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_ClimbSpeed;
@@ -200,7 +194,6 @@ struct Z_Construct_UClass_ARope_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARope_Statics::NewProp_DefaultSceneRoot = { "DefaultSceneRoot", nullptr, (EPropertyFlags)0x00100000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARope, DefaultSceneRoot), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DefaultSceneRoot_MetaData), NewProp_DefaultSceneRoot_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARope_Statics::NewProp_BoxComp = { "BoxComp", nullptr, (EPropertyFlags)0x0010000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARope, BoxComp), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BoxComp_MetaData), NewProp_BoxComp_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARope_Statics::NewProp_RopeMesh = { "RopeMesh", nullptr, (EPropertyFlags)0x0010000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARope, RopeMesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RopeMesh_MetaData), NewProp_RopeMesh_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ARope_Statics::NewProp_ClimbSpeed = { "ClimbSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARope, ClimbSpeed), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ClimbSpeed_MetaData), NewProp_ClimbSpeed_MetaData) };
@@ -210,7 +203,6 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARope_Statics:
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARope_Statics::NewProp_AttachPoint = { "AttachPoint", nullptr, (EPropertyFlags)0x0040000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARope, AttachPoint), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttachPoint_MetaData), NewProp_AttachPoint_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARope_Statics::NewProp_RopeRoot = { "RopeRoot", nullptr, (EPropertyFlags)0x0040000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARope, RopeRoot), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RopeRoot_MetaData), NewProp_RopeRoot_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARope_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARope_Statics::NewProp_DefaultSceneRoot,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARope_Statics::NewProp_BoxComp,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARope_Statics::NewProp_RopeMesh,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARope_Statics::NewProp_ClimbSpeed,
@@ -258,14 +250,14 @@ ARope::~ARope() {}
 // End Class ARope
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_Rope_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_Rope_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ARope, ARope::StaticClass, TEXT("ARope"), &Z_Registration_Info_UClass_ARope, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARope), 1753452176U) },
+		{ Z_Construct_UClass_ARope, ARope::StaticClass, TEXT("ARope"), &Z_Registration_Info_UClass_ARope, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARope), 3860622141U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_Rope_h_1469209873(TEXT("/Script/Puppe"),
-	Z_CompiledInDeferFile_FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_Rope_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_Rope_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_Rope_h_1218409264(TEXT("/Script/Puppe"),
+	Z_CompiledInDeferFile_FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_Rope_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_Rope_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

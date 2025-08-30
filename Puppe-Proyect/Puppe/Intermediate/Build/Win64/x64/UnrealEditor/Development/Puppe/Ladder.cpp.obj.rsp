@@ -1,11 +1,11 @@
-"D:\Proyectos Unreal\Puppe-Proyect\Puppe\Source\Puppe\Ladder.cpp"
-/FI"D:\Proyectos Unreal\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\PuppeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"D:\Proyectos Unreal\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\UnrealEditor\Development\Puppe\Definitions.Puppe.h"
-/Yu"D:\Proyectos Unreal\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\PuppeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"D:\Proyectos Unreal\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\PuppeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"D:\Proyectos Unreal\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\UnrealEditor\Development\Puppe\Ladder.cpp.obj"
-/sourceDependencies "D:\Proyectos Unreal\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\UnrealEditor\Development\Puppe\Ladder.cpp.dep.json"
-@"D:\Proyectos Unreal\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\UnrealEditor\Development\Puppe\Puppe.Shared.rsp"
+"C:\Users\OctoPC\Documents\PUPPE Project\PUPPE\Puppe-Proyect\Puppe\Source\Puppe\Ladder.cpp"
+/FI"C:\Users\OctoPC\Documents\PUPPE Project\PUPPE\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\PuppeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"C:\Users\OctoPC\Documents\PUPPE Project\PUPPE\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\UnrealEditor\Development\Puppe\Definitions.Puppe.h"
+/Yu"C:\Users\OctoPC\Documents\PUPPE Project\PUPPE\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\PuppeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"C:\Users\OctoPC\Documents\PUPPE Project\PUPPE\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\PuppeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"C:\Users\OctoPC\Documents\PUPPE Project\PUPPE\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\UnrealEditor\Development\Puppe\Ladder.cpp.obj"
+/sourceDependencies "C:\Users\OctoPC\Documents\PUPPE Project\PUPPE\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\UnrealEditor\Development\Puppe\Ladder.cpp.dep.json"
+@"C:\Users\OctoPC\Documents\PUPPE Project\PUPPE\Puppe-Proyect\Puppe\Intermediate\Build\Win64\x64\UnrealEditor\Development\Puppe\Puppe.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

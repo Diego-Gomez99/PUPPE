@@ -14,13 +14,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PUPPE_PuppeCharacter_generated_h
 
-#define FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execCharacterDead); \
 	DECLARE_FUNCTION(execSetIsOnRope); \
 	DECLARE_FUNCTION(execSetIsOnLadder);
 
 
-#define FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h_23_INCLASS_NO_PURE_DECLS \
+#define FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPuppeCharacter(); \
 	friend struct Z_Construct_UClass_APuppeCharacter_Statics; \
@@ -29,7 +29,7 @@ public: \
 	DECLARE_SERIALIZER(APuppeCharacter)
 
 
-#define FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h_23_ENHANCED_CONSTRUCTORS \
+#define FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	APuppeCharacter(APuppeCharacter&&); \
@@ -41,13 +41,13 @@ public: \
 	NO_API virtual ~APuppeCharacter();
 
 
-#define FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h_20_PROLOG
-#define FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h_23_GENERATED_BODY \
+#define FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h_20_PROLOG
+#define FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h_23_INCLASS_NO_PURE_DECLS \
-	FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h_23_ENHANCED_CONSTRUCTORS \
+	FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h_23_INCLASS_NO_PURE_DECLS \
+	FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,7 +55,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PUPPE_API UClass* StaticClass<class APuppeCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h
+#define CURRENT_FILE_ID FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_PuppeCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

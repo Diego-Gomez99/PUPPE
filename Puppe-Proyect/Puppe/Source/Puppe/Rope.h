@@ -19,10 +19,7 @@ class PUPPE_API ARope : public AActor
 public:	
 	// Sets default values for this actor's properties
 	ARope();
-
-	UPROPERTY(VisibleAnywhere)
-	USceneComponent* DefaultSceneRoot;
-
+	
 	UPROPERTY(EditAnywhere)
 	UBoxComponent* BoxComp;
 

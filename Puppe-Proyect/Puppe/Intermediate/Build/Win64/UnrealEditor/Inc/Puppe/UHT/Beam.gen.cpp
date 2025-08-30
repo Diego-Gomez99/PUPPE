@@ -76,14 +76,14 @@ ABeam::~ABeam() {}
 // End Class ABeam
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_Beam_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_Beam_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ABeam, ABeam::StaticClass, TEXT("ABeam"), &Z_Registration_Info_UClass_ABeam, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABeam), 907844721U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_Beam_h_3627182985(TEXT("/Script/Puppe"),
-	Z_CompiledInDeferFile_FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_Beam_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_Beam_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_Beam_h_3627182985(TEXT("/Script/Puppe"),
+	Z_CompiledInDeferFile_FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_Beam_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_Beam_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

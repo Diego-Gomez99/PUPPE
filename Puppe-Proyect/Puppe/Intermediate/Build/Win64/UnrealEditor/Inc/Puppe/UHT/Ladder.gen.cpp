@@ -335,14 +335,14 @@ ALadder::~ALadder() {}
 // End Class ALadder
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_Ladder_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_Ladder_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ALadder, ALadder::StaticClass, TEXT("ALadder"), &Z_Registration_Info_UClass_ALadder, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ALadder), 2638757011U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_Ladder_h_2040087254(TEXT("/Script/Puppe"),
-	Z_CompiledInDeferFile_FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_Ladder_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Proyectos_Unreal_Puppe_Proyect_Puppe_Source_Puppe_Ladder_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_Ladder_h_2040087254(TEXT("/Script/Puppe"),
+	Z_CompiledInDeferFile_FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_Ladder_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_OctoPC_Documents_PUPPE_Project_PUPPE_Puppe_Proyect_Puppe_Source_Puppe_Ladder_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

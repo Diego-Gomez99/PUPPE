@@ -1,23 +1,23 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\proyectos unreal\\puppe-proyect\\puppe\\intermediate\\build\\win64\\unrealeditor\\inc\\puppe\\uht\\ladder.gen.cpp",
+        "Source": "c:\\users\\octopc\\documents\\puppe project\\puppe\\puppe-proyect\\puppe\\intermediate\\build\\win64\\unrealeditor\\inc\\puppe\\uht\\ladder.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\proyectos unreal\\puppe-proyect\\puppe\\intermediate\\build\\win64\\x64\\puppeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "c:\\users\\octopc\\documents\\puppe project\\puppe\\puppe-proyect\\puppe\\intermediate\\build\\win64\\x64\\puppeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "d:\\proyectos unreal\\puppe-proyect\\puppe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\puppe\\definitions.puppe.h",
-            "d:\\proyectos unreal\\puppe-proyect\\puppe\\source\\puppe\\ladder.h",
-            "d:\\epic juegos\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputcomponent.h",
-            "d:\\epic juegos\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputaction.h",
-            "d:\\epic juegos\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputmodifiers.h",
-            "d:\\epic juegos\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputactionvalue.h",
-            "d:\\epic juegos\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputactionvalue.generated.h",
-            "d:\\epic juegos\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputmodifiers.generated.h",
-            "d:\\epic juegos\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputtriggers.h",
-            "d:\\epic juegos\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputtriggers.generated.h",
-            "d:\\epic juegos\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputaction.generated.h",
-            "d:\\epic juegos\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputcomponent.generated.h",
-            "d:\\proyectos unreal\\puppe-proyect\\puppe\\intermediate\\build\\win64\\unrealeditor\\inc\\puppe\\uht\\ladder.generated.h"
+            "c:\\users\\octopc\\documents\\puppe project\\puppe\\puppe-proyect\\puppe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\puppe\\definitions.puppe.h",
+            "c:\\users\\octopc\\documents\\puppe project\\puppe\\puppe-proyect\\puppe\\source\\puppe\\ladder.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputcomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputaction.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputmodifiers.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputactionvalue.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputactionvalue.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputmodifiers.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputtriggers.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputtriggers.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputaction.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputcomponent.generated.h",
+            "c:\\users\\octopc\\documents\\puppe project\\puppe\\puppe-proyect\\puppe\\intermediate\\build\\win64\\unrealeditor\\inc\\puppe\\uht\\ladder.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

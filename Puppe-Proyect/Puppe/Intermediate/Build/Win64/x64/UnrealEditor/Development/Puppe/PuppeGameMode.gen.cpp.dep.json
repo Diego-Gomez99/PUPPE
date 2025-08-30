@@ -1,17 +1,17 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\proyectos unreal\\puppe-proyect\\puppe\\intermediate\\build\\win64\\unrealeditor\\inc\\puppe\\uht\\puppegamemode.gen.cpp",
+        "Source": "c:\\users\\octopc\\documents\\puppe project\\puppe\\puppe-proyect\\puppe\\intermediate\\build\\win64\\unrealeditor\\inc\\puppe\\uht\\puppegamemode.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\proyectos unreal\\puppe-proyect\\puppe\\intermediate\\build\\win64\\x64\\puppeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "c:\\users\\octopc\\documents\\puppe project\\puppe\\puppe-proyect\\puppe\\intermediate\\build\\win64\\x64\\puppeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "d:\\proyectos unreal\\puppe-proyect\\puppe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\puppe\\definitions.puppe.h",
-            "d:\\proyectos unreal\\puppe-proyect\\puppe\\source\\puppe\\puppegamemode.h",
-            "d:\\epic juegos\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
-            "d:\\epic juegos\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
-            "d:\\epic juegos\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
-            "d:\\epic juegos\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
-            "d:\\proyectos unreal\\puppe-proyect\\puppe\\intermediate\\build\\win64\\unrealeditor\\inc\\puppe\\uht\\puppegamemode.generated.h"
+            "c:\\users\\octopc\\documents\\puppe project\\puppe\\puppe-proyect\\puppe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\puppe\\definitions.puppe.h",
+            "c:\\users\\octopc\\documents\\puppe project\\puppe\\puppe-proyect\\puppe\\source\\puppe\\puppegamemode.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\users\\octopc\\documents\\puppe project\\puppe\\puppe-proyect\\puppe\\intermediate\\build\\win64\\unrealeditor\\inc\\puppe\\uht\\puppegamemode.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
