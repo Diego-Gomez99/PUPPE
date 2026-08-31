@@ -252,6 +252,7 @@
     <None Include="..\..\Puppe.uproject"/>
     <None Include="..\..\Source\Puppe.Target.cs"/>
     <None Include="..\..\Source\PuppeEditor.Target.cs"/>
+    <None Include="..\..\UpgradeLog.htm"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
