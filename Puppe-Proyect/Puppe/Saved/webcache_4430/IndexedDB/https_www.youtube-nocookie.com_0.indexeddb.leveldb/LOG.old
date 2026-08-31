@@ -1,6 +1,0 @@
-2024/09/29-21:40:19.358 3cf0 Creating DB D:/Proyectos Unreal/Puppe-Proyect/Puppe/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb since it was missing.
-2024/09/29-21:40:19.589 3cf0 Reusing MANIFEST D:/Proyectos Unreal/Puppe-Proyect/Puppe/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/29-21:40:28.916 954 Level-0 table #5: started
-2024/09/29-21:40:28.975 954 Level-0 table #5: 1167 bytes OK
-2024/09/29-21:40:28.997 954 Delete type=0 #3
-2024/09/29-21:40:28.997 954 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
