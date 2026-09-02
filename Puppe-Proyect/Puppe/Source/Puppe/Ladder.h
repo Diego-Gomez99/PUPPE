@@ -28,6 +28,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	float ForcedInputY = 0.f;
+	bool bUseForcedInput = false;
 
 	UFUNCTION(BlueprintCallable)
 	void SetPlayerCharacter(ACharacter* Player);
@@ -41,12 +43,16 @@ public:
 	bool CheckIfAMontageIsPlaying();
 
 	UPROPERTY(BlueprintReadWrite)
-	bool bIsNearLadder;
+	bool bIsNearLadder = false;
 	UPROPERTY(BlueprintReadOnly)
 	bool bIsOnLadder = false;
 	UPROPERTY(BlueprintReadOnly)
 	float InputY;
-		
+
+	void PlayerReachsLadderTop();
+
+
+	void LadderClimb();
 	
 private:
 	ACharacter* MyCharacter;
@@ -57,12 +63,11 @@ private:
 	FTransform LadderTransformTop;
 	
 	void PlayerFaceLadder();
-	void LadderClimb();
+
 	int FindClosestLadderTransform() const;
 	FVector2D GetInputVector() const;
 	FTransform CalculateFinalTransform(FTransform& Transform) const;
 	FVector GetLaunchVelocity()const;
-	void PlayerReachsLadderTop();
 	void OnCompletedMontage(UAnimMontage* Montage, bool bInterrupted);
 	void PlayPlayerONLadderMontages(int MontageIndex);
 };

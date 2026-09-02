@@ -106,7 +106,15 @@ void ALadder::LadderClimb()
 		else
 		{
 			//UE_LOG(LogTemp, Error, TEXT("Se Paso"));
-			InputY = GetInputVector().Y;
+			//InputY = GetInputVector().Y;
+			if (bUseForcedInput)
+			{
+				InputY = ForcedInputY;
+			}
+			else
+			{
+				InputY = GetInputVector().Y;
+			}
 			MyCharacter->AddActorWorldOffset(FVector(0,0,InputY));
 		}
 	}
